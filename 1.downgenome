@@ -1,0 +1,14 @@
+使用downgenome.py下载基因组
+
+注意：在哪运行，文件将下载到哪里
+
+所以你需要cd 到 target_path
+
+summary 来自于NCBI 比如说这个：https://ftp.ncbi.nlm.nih.gov/genomes/genbank/metagenomes/marine_sediment_metagenome/assembly_summary.txt
+
+你需要修改的路径
+target_path = '/home/luotao/marine_sediment/database/fna/'
+
+summary = '/home/luotao/marine_sediment/database/assembly_summary.txt'
+
+
